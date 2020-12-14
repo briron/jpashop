@@ -31,7 +31,7 @@ public class Order {
     private LocalDateTime orderDate;
 
     @Enumerated(EnumType.STRING)
-    private OrderStatus staus;
+    private OrderStatus status;
 
     //==연관관계 메서드==//
     public void setMember(Member member){
